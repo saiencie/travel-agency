@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyTravel</title>
+    <style>
+        @font-face {
+            font-family: "Poppins";
+            src: url("fonts/Poppins-Medium.ttf"),
+                url("fonts/Poppins-SemiBold.ttf");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Nerco";
+            src: url("fonts/Nerko-OneRegular.ttf");
+            font-display: swap;
+        }
+
+        body {
+            font-family: "Poppins";
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <nav class="header__nav">
+                <a href="" class="header__logo">
+                    <img src="images/logo.jpg" alt="EasyTravel-logo">
+                </a>
+                <ul class="header-menu">
+                    <li class="header-menu__item">
+                        <a href="" class="header-menu__link">Home</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a href="" class="header-menu__link">About</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a href="" class="header-menu__link">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header -->
+    <!-- first-screen -->
+
+    <div class="first-screen__container">
+
+        <div class="first-screen__text">
+            <h1 class="first-screen__title">START YOUR JOURNEY NOW</h1>
+            <h2 class="first-screen__subtitle">Experience life to the fullest</h2>
+        </div>
+
+
+    </div>
+    <div class="first-screen__footer"></div>
+
+    <!-- first-screen -->
+    <!-- last-minute-deals -->
+    <section class="last-minute-deals">
+        <div class="last-minute-deals__container">
+            <div class="last-minute-deals__text">
+                <h1>LAST MINUTE DEAL</h1>
+                <p> Be in time to pick up your ticket for an incredible journey</p>
+                <div class="timer__container" id="timer">
+                    <div class="timer-numbers">
+                        <div class="days after-effect">4</div>
+                        <div class="hours after-effect">15</div>
+                        <div class="minutes after-effect">38</div>
+                        <div class="seconds">40</div>
+                    </div>
+                </div>
+            </div>
+            <button class="last-minute-deal__button">Book Now</button>
+        </div>
+    </section>
+    <!-- last-minute-deals -->
+    <!-- tours-info -->
+
+    <section class="tours-info">
+        <div class="tours-info__container">
+            <h3>We organize once-in-a-lifetime travels to the most beautiful corners of the world</h3>
+            <div class="tabs-container">
+                <div class="tabs__nav">
+                    <button class="tabs__nav-btn" data-tab="#tab_1" id="btn_1">Egypt</button>
+                    <button class="tabs__nav-btn active" data-tab="#tab_2" id="btn_2">England</button>
+                    <button class="tabs__nav-btn" data-tab="#tab_3" id="btn_3">France</button>
+                </div>
+                <div class="tabs__content">
+                    <div class="tabs__item " id="tab_1">
+                        <div class="tabs__img-vertical-decor"></div>
+                        <div class="tabs__img-vertical">
+                            <img src="images/egypt1.jpg" alt="Egypt-img">
+                        </div>
+
+                        <div class="tabs__img-horizontal-decor"></div>
+                        <div class="tabs__img-horizontal">
+                            <img src="images/egypt2.jpg" alt="Egypt-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs__content">
+                    <div class="tabs__item active" id="tab_2">
+                        <div class="tabs__img-vertical-decor"></div>
+                        <div class="tabs__img-vertical">
+                            <img src="images/england1.jpg" alt="England-img">
+                        </div>
+
+                        <div class="tabs__img-horizontal-decor"></div>
+                        <div class="tabs__img-horizontal">
+                            <img src="images/england2.jpg" alt="England-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs__content">
+                    <div class="tabs__item" id="tab_3">
+                        <div class="tabs__img-vertical-decor"></div>
+                        <div class="tabs__img-vertical">
+                            <img src="images/france1.jpg" alt="France-img">
+                        </div>
+
+                        <div class="tabs__img-horizontal-decor"></div>
+                        <div class="tabs__img-horizontal">
+                            <img src="images/france2.jpg" alt="France-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tabs-container tabs-container-second">
+                <div class="tabs__nav-second">
+                    <button class="tabs__nav-btn-second " data-tab="#tab_4" id="btn_4">Norway</button>
+                    <button class="tabs__nav-btn-second active" data-tab="#tab_5" id="btn_5">Italy</button>
+                    <button class="tabs__nav-btn-second" data-tab="#tab_6" id="btn_6">Germany</button>
+                </div>
+                <div class="tabs__content tabs__content-second">
+                    <div class="tabs__item-second" id="tab_4">
+                        <div class="tabs__img-vertical-decor-second"></div>
+                        <div class="tabs__img-vertical-second">
+                            <img src="images/norway1.jpg" alt="Norway-img">
+                        </div>
+
+                        <div class="tabs__img-horizontal-decor-second"></div>
+                        <div class="tabs__img-horizontal-second">
+                            <img src="images/norway2.jpg" alt="Norway-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs__content tabs__content-second">
+                    <div class="tabs__item-second  active" id="tab_5">
+                        <div class="tabs__img-vertical-decor-second"></div>
+                        <div class="tabs__img-vertical-second">
+                            <img src="images/italy1.jpg" alt="Italy-img">
+                        </div>
+
+                        <div class="tabs__img-horizontal-decor-second"></div>
+                        <div class="tabs__img-horizontal-second">
+                            <img src="images/italy2.jpg" alt="Italy-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs__content tabs__content-second">
+                    <div class="tabs__item-second" id="tab_6">
+                        <div class="tabs__img-vertical-decor-second"></div>
+                        <div class="tabs__img-vertical-second">
+                            <img src="images/germany1.jpg" alt="Germany-img">
+                        </div>
+
+                        <div class="tabs__img-horizontal-decor-second"></div>
+                        <div class="tabs__img-horizontal-second">
+                            <img src="images/germany2.jpg" alt="Germany-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- tours-info -->
+    <!-- last-screen -->
+    <section class="last-screen">
+        <div class="last-screen__container">
+            <div class="last-screen__text">
+                <h2>Haven't decided what tour to pick?</h2>
+                <p>Contact us via social media or leave your data and we will call you back to find the best tour
+                    especially for you!</p>
+            </div>
+            <button class="last-screen__button open-btn">Leave my data</button>
+            <div class="popup__bg">
+                <form class="popup">
+                    <div class="input__container">
+                        <img class="close-popup" src="images/icons8-close-window-50.png" alt="close-icon">
+                        <div class="input__container">
+                            <label for="email-input" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email-input">
+                        </div>
+                        <div class="input__container">
+                            <label for="name-input" class="form-label">Full name</label>
+                            <input type="text" class="form-control" id="name-input">
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-button">Submit</button>
+
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- last-screen -->
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer__container">
+
+            <div class="footer__logos">
+                <a href="" class="inst-logo">
+                    <img src="images/Instagram-logo.svg" alt="Instagram-logo">
+                </a>
+                <a href="" class="facebook-logo">
+                    <img src="images/Facebook-logo.svg" alt="Facebook-logo">
+                </a>
+                <a href="" class="gmail-logo">
+                    <img src="images/Gmail-logo.svg" alt="Gmail-logo">
+                </a>
+                <a href="" class="telegram-logo">
+                    <img src="images/Telegram-logo.svg" alt="Telegram-logo">
+                </a>
+
+            </div>
+            <div class="footer__logo__container">
+                <a href="" class="footer__logo">
+                    <img src="images/logo.jpg" alt="EasyTravel-logo">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

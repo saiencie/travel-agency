@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-family: "Nerco";
+    color: #FFFFFF;
+}
+
+button {
+    cursor: pointer;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+/* header */
+.header-container {
+    width: 100%;
+    max-width: 1920px;
+    height: 89px;
+    margin: 0 auto;
+    background-color: #9C8867;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 172.35px;
+    height: 48.92px;
+    rotate: -5.25deg;
+    margin-top: 19px;
+    margin-left: 50px;
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    margin-top: 26px;
+}
+
+.header-menu__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-left: 31px;
+    margin-right: 36px;
+}
+
+/* header */
+/* first-screen */
+.first-screen__container {
+    width: 100%;
+    height: 845px;
+    background-image: url(images/first-screen-bg.jpg);
+    background-size: cover;
+}
+
+.first-screen__text {
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 220px;
+
+}
+
+.first-screen__title {
+
+    font-size: 60px;
+    margin-left: 110px;
+}
+
+.first-screen__subtitle {
+    font-weight: 500;
+    font-size: 36px;
+    padding-top: 9px;
+    margin-left: 210px;
+}
+
+.first-screen__footer {
+    width: 100%;
+    height: 89px;
+    background-color: #9C8867;
+
+
+}
+
+/* first-screen */
+
+/* last-minute-deals */
+
+.last-minute-deals__container {
+    width: 100%;
+    height: auto;
+    background-color: #5C4742;
+    text-align: center;
+}
+
+.last-minute-deals__text {
+    color: #FFFFFF;
+}
+
+.last-minute-deals__text h1 {
+    font-size: 73px;
+    padding-top: 64px;
+}
+
+.last-minute-deals__text p {
+    padding-top: 15px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.timer-numbers {
+    align-self: center;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 150px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    justify-content: space-evenly;
+
+}
+
+.after-effect::after {
+    content: ":";
+    margin-left: 55px;
+}
+
+.days {
+    margin-left: 200px;
+}
+
+.last-minute-deal__button {
+    width: 283px;
+    height: 103px;
+    border-radius: 8px;
+    background-color: #9C8867;
+    font-size: 32px;
+    border: #9C8867;
+    margin-bottom: 75px;
+}
+
+
+/* last-minute-deals */
+/* tours-info */
+.tours-info__container {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    background-color: #9C8867;
+}
+
+.tours-info h3 {
+    max-width: 1000px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 170px;
+    text-align: left;
+    margin-left: 51px;
+}
+
+.tabs__nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs__nav-btn {
+    width: 182px;
+    height: 89px;
+    background-color: #5C4742;
+    border-radius: 7px;
+    border: none;
+    font-size: 36px;
+    position: absolute;
+
+}
+
+.tabs__nav-btn.active {
+    background-color: #5c47427a;
+
+}
+
+#btn_1 {
+    margin-left: 41%;
+    margin-top: 13%;
+    z-index: 5;
+
+}
+
+#btn_2 {
+    margin-left: 57%;
+    margin-top: 9%;
+    z-index: 5;
+
+}
+
+#btn_3 {
+    margin-left: 73%;
+    margin-top: 5%;
+    z-index: 5;
+
+
+}
+
+.tabs__item {
+    max-width: 1268px;
+    height: 690px;
+    display: none;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 8%;
+    margin-top: 160px;
+}
+
+.tabs__item.active {
+    display: flex;
+}
+
+.tabs__img-vertical-decor {
+    width: 420px;
+    height: 575px;
+    background-color: #5C4742;
+    position: absolute;
+}
+
+.tabs__img-horizontal-decor {
+    width: 680px;
+    height: 394px;
+    background-color: #5C4742;
+    position: absolute;
+    right: 0px;
+    bottom: 8%;
+}
+
+.tabs__img-vertical {
+    width: 430px;
+    height: 645px;
+    z-index: 1;
+    padding-top: 25px;
+    padding-left: 25px;
+
+}
+
+.tabs__img-horizontal {
+    width: 670px;
+    z-index: 1;
+    position: absolute;
+    bottom: 11%;
+    right: 2%;
+
+}
+.tabs__nav-second {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs__nav-btn-second {
+    width: 182px;
+    height: 89px;
+    background-color: #5C4742;
+    border-radius: 7px;
+    border: none;
+    font-size: 36px;
+    position: absolute;
+
+}
+
+.tabs__nav-btn-second.active {
+    background-color: #5c47427a;
+
+}
+.tabs__item-second {
+    flex-direction: row-reverse;
+    position: relative;
+    justify-content: space-between;
+    display: none;
+    max-width: 1268px;
+    height: 690px;
+    margin-left: 8%;
+    margin-top: 160px;
+}
+.tabs__item-second.active{
+    display: flex;
+}
+.tabs__img-vertical-decor-second {
+    width: 420px;
+    height: 575px;
+    background-color: #5C4742;
+    position: absolute;
+}
+
+.tabs__img-horizontal-decor-second {
+    width: 655px;
+    height: 394px;
+    background-color: #5C4742;
+    position: absolute;
+    left: 0px;
+    bottom: 7.3%;
+}
+
+.tabs__img-vertical-second {
+    width: 430px;
+    height: 645px;
+    z-index: 1;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+.tabs__img-horizontal-second {
+    z-index: 1;
+    width: 670px;
+    padding-left: 25px;
+    padding-top: 205px;
+
+}
+
+#btn_4 {
+    margin-left: 46%;
+    margin-top: 14%;
+    z-index: 5;
+
+
+}
+
+#btn_5 {
+    margin-left: 30%;
+    margin-top: 10%;
+    z-index: 5;
+
+}
+
+#btn_6 {
+    margin-left: 14%;
+    margin-top: 7%;
+    z-index: 5;
+
+
+}
+
+/* tours-info */
+/* last-screen */
+.last-screen__container {
+    width: 100%;
+    height: auto;
+    background-color: #5C4742;
+    text-align: center;
+}
+.popup__bg{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    transition: 1s;
+    opacity: 0;
+    pointer-events: none;
+}
+.popup__bg.active{
+    opacity: 1;
+    pointer-events: all;
+}
+.popup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 300px;
+    border-radius: 7px;
+    border: 2px #FFFFFF solid;
+    background-color: #9C8867 ;  
+  
+}
+.input__container{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.form-control{
+    width: 420px;
+    height: 30px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+input:focus{
+    outline: none;
+}
+.submit-button{
+    width: 160px;
+    height: 60px;
+    background-color: #5C4742;
+    color: #FFFFFF;
+    font-family: "Nerco";
+    font-size: 32px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 30px;
+}
+.close-popup{
+    display: block;
+    width: 40px;
+    margin-left: auto;
+    cursor: pointer;
+    transition: 1s;
+}
+.close-popup:hover{
+    transform: scale(1.1);
+}
+.last-screen__text {
+    color: #FFFFFF;
+    width: 1000px;
+    margin-left: 40vh;
+
+
+}
+
+.last-screen__text h2 {
+    font-family: "Nerco";
+    font-size: 48px;
+    padding-top: 75px;
+}
+
+.last-screen__text p {
+    width: 970px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 32px;
+    padding-bottom: 66px;
+
+
+}
+
+.last-screen__button {
+    width: 253px;
+    height: 80px;
+    background-color: #9C8867;
+    border-radius: 7px;
+    border: none;
+    font-size: 26px;
+    margin-bottom: 66px;
+}
+
+/* last-screen */
+/* footer */
+.footer__container {
+    width: 100%;
+    height: 89px;
+    background-color: #9C8867;
+}
+
+.footer__logo__container {
+    width: 172.35px;
+    height: 48.92px;
+    rotate: -5.25deg;
+    padding-top: 19px;
+    margin-left: 50px;
+}
+
+.footer__logos {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    margin-left: 40%;
+    padding-top: 25px;
+    position: absolute;
+}
+
+
+/* footer */
